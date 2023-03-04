@@ -11,10 +11,24 @@
     padding-top: 10px;
 }
 
+.flex {
+    display: flex
+}
+
+.but {
+    background: #8360c3;  
+    background: -webkit-linear-gradient(to right, #2ebf91, hsl(261, 45%, 57%));
+    background: linear-gradient(to right, #2ebf91, #8360c3); 
+    border: none;
+    padding: 0.6rem;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+}
+
 .div-logo {
-    display: flex;
-    background-color: yellow;
     width: max-content;
+    align-items: center;
 }
 
 .logo {
@@ -26,8 +40,29 @@
     font-weight: 1000;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.5rem;
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#2ebf91, hsl(261, 45%, 57%));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.main-nav {
+    justify-content: space-between;
+}
+
+.nav-items {
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: calc(0.04 * 100vw);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: small;
+}
+
+.nav-item > a{
+    color: white;
+    text-decoration: none;
 }
