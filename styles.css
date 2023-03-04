@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-image: url(Backgrounds/background_4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+
+.div-logo {
+    display: flex;
+    background-color: yellow;
+    width: max-content;
+}
+
+.logo {
+    width: 25px;
+    height: 30px;
+}
+
+.name {
+    font-weight: 1000;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
