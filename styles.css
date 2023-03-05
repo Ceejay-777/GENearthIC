@@ -5,10 +5,12 @@
 }
 
 .banner {
-    background-image: url(Backgrounds/background_4.jpeg);
+    background-image: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url(Backgrounds/background_4.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 10px;
+    background-position: center;
+    padding: 10px 40px;
+    padding-right: 5px;;
 }
 
 .flex {
@@ -24,6 +26,7 @@
     border-radius: 8px;
     color: white;
     font-weight: 500;
+    transition: hover ease-in-out 1s;
 }
 
 .div-logo {
@@ -66,3 +69,34 @@
     color: white;
     text-decoration: none;
 }
+
+.main-text {
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    width: 60%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 40px;
+}
+
+.explore {
+    margin-bottom: 20px;
+}
+
+.lorem {
+    font-size: smaller;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.but-start {
+    font-family:'Montserrat', sans-serif;
+    padding: 0.7rem;
+}
+
+.but:hover {
+    background: -webkit-linear-gradient(to left, #2ebf91, hsl(261, 45%, 57%));
+    background: linear-gradient(to left, #2ebf91, #8360c3); 
+}
+
